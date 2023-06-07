@@ -28,7 +28,7 @@ header {
 
 .posicionamento {
     width: 1400px;
-    margin: 0 auto;
+    margin: 10px;
 
 }
 
@@ -473,3 +473,105 @@ footer .bloco4 .facebook {
 footer .bloco4 .linkedin {
     width: 40px;
 }
+@media screen and (max-width: 1220px){
+   
+    .noticias_recentes {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .noticias_recentes2 {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+@media screen and (max-width: 1100px){
+    .ofertas_especiais /* .card_ofertas */ {
+        flex-wrap: wrap;
+        gap: 300px;
+        }
+    .promocoes>div {
+        display: none;
+        }
+    /* .posicionamento_header {
+        display:none;
+    }  */   
+
+@media screen and (max-width: 915px){
+    .bloco3{
+        display: none;
+       }
+
+@media screen and (max-width: 696px){
+    .menu_barras svg    {
+        height: 50px;
+        fill : var(--grey);
+         }
+    .posicionamento_header nav{
+        display: none;
+        position:absolute ;
+        right: 0;
+        top: 80px;
+        flex-direction: column;
+        z-index:1;
+        padding: 50px 0;
+        background: linear-gradient(114.61deg, rgba(22, 19, 181, 0.052) 1.08%, rgba(29, 14, 199, 0.117) 99.26%);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(15px);
+        border-radius: 15px;
+           }
+    header nav a{
+        margin: 10px 0 ;
+        }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+        width: 300px;
+        margin-right: 37px;
+    }
+    .banner_conteudo h2 {
+        font-size: 30px;
+    }
+    .bloco1{
+        display: flex;
+        justify-content: center;
+    }
+    .bloco2{
+        display: none;
+    }
+    footer .bloco4 {
+        display: none;
+    }
+
+    footer .bloco1 h2 {
+        display: none;
+    }
+    footer .bloco1 span {
+        display: none;
+    }
+
+    @media screen and (max-width: 668px){
+    header nav {
+        display: none;
+        }
+    @media screen and (max-width: 320px){
+        .noticias_h2 {
+            margin-left: 50px;
+        }
+        .noticias_recentes{
+            margin-left: 70px;
+        }
+        .noticias_recentes2{
+            margin-left: 70px;
+        }
+        .ofertas_h2 {
+            font-size: 20px;
+        }
+        footer {
+            width: 500px;
+        }
+}/*320px*/
+}/*668px*/
+}/*969px*/
+}/*915px*/
+}/*1100px*/
+}/*1220px*/
